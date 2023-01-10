@@ -13,10 +13,10 @@ namespace If_Excersize_3
             Console.Write("Please enter a number: ");
             input1 = int.Parse(Console.ReadLine());
 
-
+            //checking if input is positive and even
             if (input1 > 0 && input1 % 2 == 0)
             {
-                Console.WriteLine($"The square of the inputs is: {input1 * input1}");
+                Console.WriteLine($"The square of the input is: {input1 * input1}");
             }
         }
     }
